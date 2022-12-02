@@ -23,8 +23,6 @@ type LDW = enum
     D,
     W,
 
-# p1 % 3 == p2 - 1
-#
 proc score2(p: RPS, r: LDW): int =
     case r
     of L: 3 - (3 - ord(p) + 1) mod 3
