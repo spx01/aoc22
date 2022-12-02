@@ -5,10 +5,11 @@ author        = "spx01"
 description   = ""
 license       = "MIT"
 srcDir        = "src"
-bin           = @["day1"]
+bin           = @["day1", "day2"]
 binDir        = "bin"
 
 
 # Dependencies
 
-requires "nim >= 1.6.8"
+requires "nim >= 1.6.10"
+requires "iterutils"
