@@ -5,7 +5,7 @@ author        = "spx01"
 description   = ""
 license       = "MIT"
 srcDir        = "src"
-bin           = @["day1", "day2"]
+bin           = @["day1", "day2", "day3"]
 binDir        = "bin"
 
 
