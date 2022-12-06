@@ -3,3 +3,4 @@ nimbledeps/
 bin/
 tests/*
 !tests/*.nim
+__pycache__
