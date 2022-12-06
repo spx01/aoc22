@@ -83,8 +83,7 @@ template take*(it, n): iterator: auto =
 iterator dropImpl[T](it: iterator: T, n: int): T =
     var i = 0
     while i < n:
-        let x = it()
-        if it.finished:
+        if it().finished:
             break
         i += 1
     while true:
