@@ -1,3 +1,5 @@
 input/
 nimbledeps/
 bin/
+tests/*
+!tests/*.nim
