@@ -3,4 +3,5 @@ nimbledeps/
 bin/
 tests/*
 !tests/*.nim
+!tests/nim.cfg
 __pycache__
