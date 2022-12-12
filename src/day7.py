@@ -1,5 +1,3 @@
-from itertools import *
-
 max_size = 1e5
 max_used = 4e7
 
